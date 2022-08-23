@@ -1,0 +1,296 @@
+body {         background-image: linear-gradient( to bottom, #000000 , #8B0000, #000000 );
+}
+
+* { box-sizing: border-box; }
+
+header  { background-color: #FDFD96       ;
+        color: #8B0000    ;
+        font-family: Luminari, fantasy;
+		text-align: center;
+		font-size: 28px;
+		height: 120px
+		
+		
+
+    }
+
+.Lsideknight
+		   {
+			  position:absolute;
+			  top: 368px;
+			  left: 465px;
+		   }
+
+.Rsideknight
+           {
+			  position:absolute;
+			  top: 368px;
+			  right: 465px;
+		   }
+
+.download {
+  position: absolute;
+  top: 1600px;
+  left: 725px;
+}
+.ULsideknight
+		   {
+			  position:absolute;
+			  top: 368px;
+			  left: 490px;
+		   }
+
+.URsideknight
+           {
+			  position:absolute;
+			  top: 368px;
+			  right: 490px;
+		   }
+		   
+.GLsideknight
+		   {
+			  position:absolute;
+			  top: 368px;
+			  left: 510px;
+		   }
+
+.GRsideknight
+           {
+			
+			  position:absolute;
+			  top: 368px;
+			  right: 510px;
+		   }
+		   
+.Sknight	
+		   {
+			  
+			  position:absolute;
+			  top: 1650px;
+			  right: 570px;
+		   }
+.shoot1
+		   {
+			   position: absolute;
+			   top: 620px;
+			   left: 610px;
+		   }
+
+.shoot2
+		   {
+			   position: absolute;
+			   top: 920px;
+			   left: 610px;
+		   }
+		   
+.shoot3
+		   {
+			   position: absolute;
+			   top: 1220px;
+			   left: 610px;
+		   }
+#wrapper { background-color: #FDFD96 ;
+    min-width: 750px;
+    max-width: 1050px;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 1024;
+    box-shadow: 3px 2px 5px 0px black;
+	height: 600px
+} 
+
+#wrapperG { background-color: #FDFD96 ;
+    min-width: 700px;
+    max-width: 1024px;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 1024;
+    box-shadow: 3px 2px 5px 0px black;
+	height: 2000px
+} 
+tr:nth-child(even) {background-color: #FDFD96}
+
+h1 { 
+    line-height: 200%;
+    height:72px;
+    
+}
+h2 {  color: #000000;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 100px;
+    font-family: Luminari, fantasy;
+	text-align: center
+}
+
+h3 {
+    color: #000033
+}
+nav { font-weight: bold;
+	text-align: center;
+	
+	
+}
+
+nav a {
+    text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	color: #000000
+}
+nav a:link     {
+    color: #000000;
+	text-align: center
+}
+
+nav a:visited {
+    color: #000000;
+	text-align: center
+}
+nav a:hover {
+    color: #808080;
+	text-align: center
+}
+
+nav b {
+    text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	color: #000000
+}
+nav b:link     {
+    color: #000000;
+	text-align: center
+}
+
+nav b:visited {
+    color: #000000;
+	text-align: center
+}
+nav b:hover {
+    color: #808080;
+	text-align: center
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+dt { font-weight: bold;
+    color: #FDFD96; 
+}
+
+footer { font-size: .7em;
+    font-style: italic; 
+    padding : 1em;
+    background-color: #FDFD96; 
+	text-align: center
+}
+
+header, nav, main, footer {
+    display : block;
+	align-content: center
+}
+
+@media only screen and (max-width:1024px) {
+        
+        body { margin: 0px;
+        padding: 0px;
+        background-image: none;
+        }
+
+        #wrapper {
+            margin:0px;
+            width: auto;
+            min-width:0;
+            box-shadow: none;
+        }
+
+        h1 {
+            margin:0;
+        }
+
+        nav {
+            float: none;
+            width: auto;
+            padding-top: 0.01em;
+            padding-bottom: 0.01em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        nav ul {
+            display: inline-block;
+        }
+
+        nav a {
+            padding-right: 2em;
+        }
+
+        main {
+            padding: 1em;
+            margin-left: 0px;
+            font-size: 90%;
+        }
+
+        footer {
+            margin: 0;
+        }
+
+@media only all and (max-width: 768px) {
+        
+
+    h1 {
+        height: 100%;
+        font-size: 1.5em;
+        padding-left: 0.3em;
+    }
+
+    nav {
+        padding:0;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.2em;
+        font-size: 1.1em;
+        border-bottom: 1px;
+        border-bottom-color: #330000;
+        padding: 0em; 
+    }
+
+    nav ul {
+        margin: 0;
+        padding:0;
+    }
+
+    nav li {
+        display: block;
+        margin:0;
+        padding:0;
+    }
+
+    main {
+        padding-top: .1em;
+        padding-right:0.6em;
+        padding-bottom:0.1em;
+        padding-left: 0.4em;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    #mobile {
+        display:inline; 
+    }
+
+    #desktop {
+        display: none;
+    }
+
+}
